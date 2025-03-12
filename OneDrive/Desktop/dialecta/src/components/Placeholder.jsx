@@ -3,7 +3,7 @@ import { useState } from "react";
 function Placeholder() {
   const [email, setEmail] = useState("");
   return (
-    <div className="flex flex-col items-center justify-center p-4 sm:p-6 md:p-6 lg:p-4">
+    <div className="flex flex-col items-center justify-center pt-4 sm:p-6 md:p-6 lg:p-4 lg:pt-4">
       <form className="max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl w-full">
         <div className="flex">
           <input

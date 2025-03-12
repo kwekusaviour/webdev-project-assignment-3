@@ -5,7 +5,7 @@ import Tweeter from "../assets/videos/tweeter-icon.png";
 
 const Handles = () => {
   return (
-    <div className="flex ml-3 space-x-4 sm:space-x-8 md:space-x-8 lg:space-x-10 items-center justify-center mt-20 sm:mt-6 md:mt-8 lg:mt-2">
+    <div className="flex ml-3 space-x-8 sm:space-x-12 md:space-x-12 lg:space-x-14 items-center justify-center mt-20 sm:mt-6 md:mt-8 lg:mt-2">
       <img
         src={Facebook}
         className="bg-blue-500 h-6 sm:h-8 md:h-8 lg:h-6 rounded-full"

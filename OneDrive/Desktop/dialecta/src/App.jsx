@@ -5,6 +5,8 @@ import Background from "./components/Background";
 import Countdown from "./components/Countdown";
 import Placeholder from "./components/Placeholder";
 import Handles from "./components/Handles";
+import Pages from "./components/pages";
+
 const App = () => {
   const endDate = new Date().getTime() + 7 * 24 * 60 * 60 * 1000;
   // const [heroCount, setHeroCount] = useState(0);
@@ -24,8 +26,10 @@ const App = () => {
           className="flex left-2 top-0 justify-items-start relative z-10 h-10 sm:h-20 md:h-30 lg:h-20 p-2 sm:p-2 md:p-2 lg:p-0"
           alt="LOGO"
         />
+
         <Background playStatus={playStatus} />
         <div className="absolute inset-0 z-10 flex flex-col items-start  p-4 sm:p-6 md:p-8 lg:p-10">
+          <Pages />
           <Hero
             heroData={heroData}
             setPlayStatus={setPlayStatus}
